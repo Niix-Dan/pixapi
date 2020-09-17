@@ -1,0 +1,19 @@
+{
+  "name": "calctimer",
+  "version": "0.0.1",
+  "description": "Uma api simples que calcula tempo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CalcTimer",
+    "Calc",
+    "Milisseconds"
+  ],
+  "author": "Daniel <@gatocraftbr@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}
