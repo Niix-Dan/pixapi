@@ -1,15 +1,18 @@
 {
-  "name": "calctimer",
+  "name": "pixapi",
   "version": "0.0.1",
-  "description": "Uma api simples que calcula tempo",
+  "description": "Uma api simples para ajudar pequenos desenvolvedores",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "CalcTimer",
-    "Calc",
-    "Milisseconds"
+    "simples",
+    "api",
+    "free",
+    "tempo",
+    "timers",
+    "pixapi"
   ],
   "author": "Daniel <@gatocraftbr@gmail.com>",
   "license": "ISC",
