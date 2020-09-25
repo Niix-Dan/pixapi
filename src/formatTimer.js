@@ -8,7 +8,8 @@ module.exports = milliseconds => {
 
 	return {
 		years: roundTowardsZero(milliseconds / 3.154e+10),
-		days: roundTowardsZero(milliseconds / 86400000) % 365,
+		mouth: roundTowardsZero(milliseconds / 2.628e+9) % 30,
+		days: roundTowardsZero(milliseconds / 86400000) % 30,
 		hours: roundTowardsZero(milliseconds / 3600000) % 24,
 		minutes: roundTowardsZero(milliseconds / 60000) % 60,
 		seconds: roundTowardsZero(milliseconds / 1000) % 60,
