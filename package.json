@@ -1,6 +1,6 @@
 {
   "name": "pixapi",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Uma api simples para ajudar pequenos desenvolvedores",
   "main": "index.js",
   "scripts": {
