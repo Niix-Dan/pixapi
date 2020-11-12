@@ -1,6 +1,6 @@
 {
   "name": "pixapi",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Uma api simples para ajudar pequenos desenvolvedores",
   "main": "index.js",
   "scripts": {
@@ -10,12 +10,11 @@
     "simples",
     "api",
     "free",
-    "discord",
     "pixapi"
   ],
   "author": "Daniel <@gatocraftbr@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.3.1"
+    "mathjs": "^7.3.0"
   }
 }
