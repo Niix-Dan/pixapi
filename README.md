@@ -1,6 +1,6 @@
 # Descrição
 
-PixApi é uma api simples em **[node.js](https://www.npmjs.com/)** com intuito de simplificar muitas coisas no desenvolvimento de bots para o discord
+PixApi é uma api simples em **[node.js](https://www.npmjs.com/)** com intuito de simplificar muitas coisas no desenvolvimento para pequenos programadores
 
 ## Instalação
 
