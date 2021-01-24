@@ -1,16 +1,8 @@
-# Descrição
+# Description
 
-PixApi é uma api simples em **[node.js](https://www.npmjs.com/)** com intuito de simplificar muitas coisas no desenvolvimento para pequenos programadores
+PixApi is a simple **[node.js](https://www.npmjs.com/)** api in order to simplify many things in development for small programmers
 
-## Instalação
-
-Para instalar a api
-
-```bash
-npm install --save pixapi@latest
-```
-
-## Exemplo Uso
+## Use Example
 
 ```javascript
 const PixApi = require('pixapi');
@@ -21,6 +13,6 @@ console.log(PixApi.calc("123*123")); // Calcs String
 console.log(PixApi.randomChars(10)); // Random characters
 console.log(PixApi.randomNumber(300, 310)); // random number between 300 and 310
 
-let time = PixApi.formatTimer(5.88e+6); // Time left
+let time = PixApi.formatTimer(5.88e+6); // Time in millisseconds
 console.log(`${time.days}d ${time.hours}h ${time.seconds}s`);
 ```
