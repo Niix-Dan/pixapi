@@ -1,5 +1,7 @@
 "use strict";
-
+/**
+ * @example console.log(pixapi.formatDate('Today date and hours MM/DD/YYYY HH:mm:ss', Date.now())); //transform Date.now() in real date string
+*/
 const formatDate = (template, date) => {
   let e;
   if(template == null || date == null) {

@@ -1,5 +1,9 @@
 "use strict";
 
+/**
+ * @example console.log(pixapi.randomNumber(100, 150)); //output a random number between 100 and 150
+*/
+
 const rn = (min, max) => {
     let e;
     if(min == null) {

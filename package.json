@@ -1,7 +1,7 @@
 {
   "name": "pixapi",
-  "version": "1.0.0",
-  "description": "Uma api simples para ajudar pequenos desenvolvedores",
+  "version": "1.1.8",
+  "description": "A simple api for small developers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,9 +12,13 @@
     "free",
     "pixapi"
   ],
-  "author": "Daniel <@gatocraftbr@gmail.com>",
+  "author": "Daniel <https://daniel-code15.github.io>",
   "license": "ISC",
   "dependencies": {
-    "mathjs": "^7.3.0"
+    "configstore": "^5.0.1",
+    "querystring": "^0.2.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "safe-eval": "^0.4.1"
   }
 }

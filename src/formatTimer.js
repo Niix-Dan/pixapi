@@ -1,5 +1,10 @@
 'use strict';
-module.exports = milliseconds => {
+
+/**
+ * @example console.log(pixapi.formatTimer(100); //transform milliseconds to real date
+*/
+
+const formatTimer = milliseconds => {
 	if (typeof milliseconds !== 'number') {
 		throw new TypeError('Expected a number');
 	}
@@ -19,4 +24,7 @@ module.exports = milliseconds => {
 		nanoseconds: roundTowardsZero(milliseconds * 1e6) % 1000
 	}
 };
+
+
+module.exports = formatTimer;
 
