@@ -12,7 +12,7 @@
     "free",
     "pixapi"
   ],
-  "author": "Daniel <https://daniel-code15.github.io>",
+  "author": "Niix <https://niix-dan.github.io>",
   "license": "ISC",
   "dependencies": {
     "configstore": "^5.0.1",
